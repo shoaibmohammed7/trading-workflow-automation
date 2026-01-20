@@ -22,11 +22,11 @@ import {
 } from "@/components/ui/sheet"
 import { useState } from "react"
 import type { NodeKind, NodeMetadata } from "./CreatWorkFlow"
-import type { TimerNodeMetadata } from "./nodes/triggers/Timer"
-import type { PriceTriggerMetadata } from "./nodes/triggers/PriceTrigger"
+import type { TimerNodeMetadata } from "common/types"
+import type { PriceTriggerMetadata } from "common/types"
 
-import { SUPPORTED_ASSETS } from "./TriggerSheet"
-import type { TradingMetadata } from "./nodes/actions/Hyperliquid"
+import { SUPPORTED_ASSETS } from "common/types"
+import type { TradingMetadata } from "common/types"
 
 
 
